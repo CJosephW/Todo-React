@@ -1,0 +1,669 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react' ]
+2 info using npm@1.2.14
+3 info using node@v0.10.0
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose read json D:\reactProcject1\package.json
+6 warn package.json reactProcject1@0.0.0 No README.md file found!
+7 verbose from cache D:\reactProcject1\package.json
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'react', null ]
+10 verbose cache add name=undefined spec="react" args=["react",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'react',
+11 verbose parsed url   path: 'react',
+11 verbose parsed url   href: 'react' }
+12 silly lockFile 6b810c90-react react
+13 verbose lock react C:\Users\wisec\AppData\Roaming\npm-cache\6b810c90-react.lock
+14 silly lockFile 6b810c90-react react
+15 silly lockFile 6b810c90-react react
+16 verbose addNamed [ 'react', '' ]
+17 verbose addNamed [ null, '' ]
+18 silly lockFile 0baa5bb3-react react@
+19 verbose lock react@ C:\Users\wisec\AppData\Roaming\npm-cache\0baa5bb3-react.lock
+20 silly addNameRange { name: 'react', range: '', hasData: false }
+21 verbose url raw react
+22 verbose url resolving [ 'http://registry.npmjs.org/', './react' ]
+23 verbose url resolved http://registry.npmjs.org/react
+24 info trying registry request attempt 1 at 03:19:34
+25 http GET http://registry.npmjs.org/react
+26 http 200 http://registry.npmjs.org/react
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Sun, 12 Apr 2020 07:19:34 GMT',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'content-length': '625594',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'set-cookie': [ '__cfduid=d5da53beb508905af8db9072cb1d89ddc1586675974; expires=Tue, 12-May-20 07:19:34 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+27 silly registry.get     'cf-ray': '582b2e0b9ca0fe12-DTW',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     age: '4177',
+27 silly registry.get     'cache-control': 'public, max-age=300',
+27 silly registry.get     etag: '"54762c23468e197c8a82f96cffa3d30e"',
+27 silly registry.get     'last-modified': 'Fri, 10 Apr 2020 02:08:06 GMT',
+27 silly registry.get     vary: 'accept-encoding, accept',
+27 silly registry.get     'cf-cache-status': 'HIT',
+27 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+27 silly registry.get     server: 'cloudflare' } ]
+28 silly addNameRange number 2 { name: 'react', range: '', hasData: true }
+29 silly addNameRange versions [ 'react',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.2.4',
+29 silly addNameRange     '0.2.5',
+29 silly addNameRange     '0.2.6',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.4',
+29 silly addNameRange     '0.3.5',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.6.2',
+29 silly addNameRange     '0.6.3',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.8.0',
+29 silly addNameRange     '0.9.0-rc1',
+29 silly addNameRange     '0.9.0',
+29 silly addNameRange     '0.10.0-rc1',
+29 silly addNameRange     '0.10.0',
+29 silly addNameRange     '0.11.0-rc1',
+29 silly addNameRange     '0.11.0',
+29 silly addNameRange     '0.11.1',
+29 silly addNameRange     '0.11.2',
+29 silly addNameRange     '0.12.0-rc1',
+29 silly addNameRange     '0.12.0',
+29 silly addNameRange     '0.12.1',
+29 silly addNameRange     '0.12.2',
+29 silly addNameRange     '0.13.0-alpha.1',
+29 silly addNameRange     '0.13.0-alpha.2',
+29 silly addNameRange     '0.13.0-beta.1',
+29 silly addNameRange     '0.13.0-beta.2',
+29 silly addNameRange     '0.13.0-rc1',
+29 silly addNameRange     '0.13.0-rc2',
+29 silly addNameRange     '0.13.0',
+29 silly addNameRange     '0.13.1',
+29 silly addNameRange     '0.13.2',
+29 silly addNameRange     '0.13.3',
+29 silly addNameRange     '0.14.0-alpha1',
+29 silly addNameRange     '0.14.0-alpha2',
+29 silly addNameRange     '0.14.0-alpha3',
+29 silly addNameRange     '0.14.0-beta1',
+29 silly addNameRange     '0.14.0-beta2',
+29 silly addNameRange     '0.14.0-beta3',
+29 silly addNameRange     '0.14.0-rc1',
+29 silly addNameRange     '0.14.0',
+29 silly addNameRange     '0.14.1',
+29 silly addNameRange     '0.14.2',
+29 silly addNameRange     '0.14.3',
+29 silly addNameRange     '0.14.4',
+29 silly addNameRange     '0.14.5',
+29 silly addNameRange     '0.14.6',
+29 silly addNameRange     '0.15.0-alpha.1',
+29 silly addNameRange     '0.14.7',
+29 silly addNameRange     '15.0.0-rc.1',
+29 silly addNameRange     '15.0.0-rc.2',
+29 silly addNameRange     '0.14.8',
+29 silly addNameRange     '15.0.0',
+29 silly addNameRange     '15.0.1',
+29 silly addNameRange     '15.0.2-alpha.1',
+29 silly addNameRange     '15.0.2-alpha.2',
+29 silly addNameRange     '15.0.2-alpha.3',
+29 silly addNameRange     '15.0.2-alpha.4',
+29 silly addNameRange     '15.0.2',
+29 silly addNameRange     '15.0.3-alpha.1',
+29 silly addNameRange     '15.0.3-alpha.2',
+29 silly addNameRange     '15.1.0-alpha.1',
+29 silly addNameRange     '15.1.0',
+29 silly addNameRange     '15.2.0-rc.1',
+29 silly addNameRange     '15.2.0-rc.2',
+29 silly addNameRange     '15.2.0',
+29 silly addNameRange     '15.2.1',
+29 silly addNameRange     '15.3.0-rc.1',
+29 silly addNameRange     '15.3.0-rc.2',
+29 silly addNameRange     '15.3.0-rc.3',
+29 silly addNameRange     '15.3.0',
+29 silly addNameRange     '15.3.1-rc.1',
+29 silly addNameRange     '15.3.1-rc.2',
+29 silly addNameRange     '15.3.1',
+29 silly addNameRange     '15.3.2-rc.1',
+29 silly addNameRange     '15.3.2',
+29 silly addNameRange     '15.4.0-rc.1',
+29 silly addNameRange     '15.4.0-rc.2',
+29 silly addNameRange     '15.4.0-rc.3',
+29 silly addNameRange     '15.4.0-rc.4',
+29 silly addNameRange     '15.4.0',
+29 silly addNameRange     '15.4.1',
+29 silly addNameRange     '15.4.2',
+29 silly addNameRange     '16.0.0-alpha',
+29 silly addNameRange     '16.0.0-alpha.0',
+29 silly addNameRange     '16.0.0-alpha.2',
+29 silly addNameRange     '16.0.0-alpha.3',
+29 silly addNameRange     '16.0.0-alpha.4',
+29 silly addNameRange     '16.0.0-alpha.5',
+29 silly addNameRange     '16.0.0-alpha.6',
+29 silly addNameRange     '15.5.0-rc.1',
+29 silly addNameRange     '16.0.0-alpha.7',
+29 silly addNameRange     '15.5.0-rc.2',
+29 silly addNameRange     '16.0.0-alpha.8',
+29 silly addNameRange     '15.5.0',
+29 silly addNameRange     '15.5.1',
+29 silly addNameRange     '15.5.2',
+29 silly addNameRange     '15.5.3',
+29 silly addNameRange     '15.5.4',
+29 silly addNameRange     '16.0.0-alpha.9',
+29 silly addNameRange     '0.14.9',
+29 silly addNameRange     '16.0.0-alpha.10',
+29 silly addNameRange     '16.0.0-alpha.11',
+29 silly addNameRange     '16.0.0-alpha.12',
+29 silly addNameRange     '15.6.0-rc.1',
+29 silly addNameRange     '16.0.0-alpha.13',
+29 silly addNameRange     '15.6.0',
+29 silly addNameRange     '15.6.1',
+29 silly addNameRange     '16.0.0-beta.1',
+29 silly addNameRange     '16.0.0-beta.2',
+29 silly addNameRange     '16.0.0-beta.3',
+29 silly addNameRange     '16.0.0-beta.4',
+29 silly addNameRange     '16.0.0-beta.5',
+29 silly addNameRange     '16.0.0-rc.1',
+29 silly addNameRange     '16.0.0-rc.2',
+29 silly addNameRange     '16.0.0-rc.3',
+29 silly addNameRange     '15.6.2',
+29 silly addNameRange     '16.0.0',
+29 silly addNameRange     '16.1.0-beta',
+29 silly addNameRange     '16.1.0-beta.1',
+29 silly addNameRange     '16.1.0-rc',
+29 silly addNameRange     '16.1.0',
+29 silly addNameRange     '16.1.1',
+29 silly addNameRange     '16.2.0',
+29 silly addNameRange     '16.3.0-alpha.0',
+29 silly addNameRange     '16.3.0-alpha.1',
+29 silly addNameRange     '16.4.0-alpha.7926752',
+29 silly addNameRange     '16.4.0-alpha.3174632',
+29 silly addNameRange     '16.4.0-alpha.0911da3',
+29 silly addNameRange     '16.3.0-alpha.2',
+29 silly addNameRange     '16.3.0-alpha.3',
+29 silly addNameRange     '16.3.0-rc.0',
+29 silly addNameRange     '16.3.0',
+29 silly addNameRange     '16.3.1',
+29 silly addNameRange     '16.3.2',
+29 silly addNameRange     '16.4.0',
+29 silly addNameRange     '16.4.1',
+29 silly addNameRange     '16.4.2',
+29 silly addNameRange     '16.5.0',
+29 silly addNameRange     '16.5.1',
+29 silly addNameRange     '16.6.0-alpha.0',
+29 silly addNameRange     '16.5.2',
+29 silly addNameRange     '16.6.0-alpha.400d197',
+29 silly addNameRange     '16.6.0-alpha.f47a958',
+29 silly addNameRange     '16.6.0-alpha.8af6728',
+29 silly addNameRange     '16.6.0',
+29 silly addNameRange     '16.7.0-alpha.0',
+29 silly addNameRange     '16.6.1',
+29 silly addNameRange     '0.0.0-d5e1bf0-aee1b84',
+29 silly addNameRange     '0.0.0-a8988e4-1d1a717',
+29 silly addNameRange     '0.0.0-8b3c1e4-1d1a717',
+29 silly addNameRange     '0.0.0-0c756fb-697f004',
+29 silly addNameRange     '16.6.2',
+29 silly addNameRange     '0.0.0-0c756fb-f7f79fd',
+29 silly addNameRange     '16.6.3',
+29 silly addNameRange     '16.7.0-alpha.1',
+29 silly addNameRange     '16.7.0-alpha.2',
+29 silly addNameRange     '0.0.0-ed4c4a51c',
+29 silly addNameRange     '0.0.0-88ada9819',
+29 silly addNameRange     '0.0.0-c5b7d26c7',
+29 silly addNameRange     '0.0.0-7325ebe4d',
+29 silly addNameRange     '0.0.0-4a1072194',
+29 silly addNameRange     '16.7.0',
+29 silly addNameRange     '0.0.0-f22621f88',
+29 silly addNameRange     '16.8.0-alpha.0',
+29 silly addNameRange     '0.0.0-3e15b1c69',
+29 silly addNameRange     '16.8.0-alpha.1',
+29 silly addNameRange     '0.0.0-fec00a869',
+29 silly addNameRange     '0.0.0-267ed9814',
+29 silly addNameRange     '0.0.0-d1326f466',
+29 silly addNameRange     '16.8.0',
+29 silly addNameRange     '0.0.0-11565a207',
+29 silly addNameRange     '16.8.1',
+29 silly addNameRange     '0.0.0-0e4135e8c',
+29 silly addNameRange     '0.0.0-dfabb77a9',
+29 silly addNameRange     '16.8.2',
+29 silly addNameRange     '0.0.0-b668168d4',
+29 silly addNameRange     '0.0.0-29b7b775f',
+29 silly addNameRange     '16.8.3',
+29 silly addNameRange     '0.0.0-741aa17a3',
+29 silly addNameRange     '16.8.4',
+29 silly addNameRange     '0.0.0-679402a66',
+29 silly addNameRange     '0.0.0-f9e41e3a5',
+29 silly addNameRange     '16.8.5',
+29 silly addNameRange     '0.0.0-297165f1e',
+29 silly addNameRange     '16.8.6',
+29 silly addNameRange     '0.0.0-c35e37aab',
+29 silly addNameRange     '16.9.0-alpha.0',
+29 silly addNameRange     '0.0.0-a9eff329c',
+29 silly addNameRange     '0.0.0-9ebe1768a',
+29 silly addNameRange     '0.0.0-4221565e1',
+29 silly addNameRange     '0.0.0-fb28e9048',
+29 silly addNameRange     '0.0.0-6da04b5d8',
+29 silly addNameRange     '0.0.0-50b50c26f',
+29 silly addNameRange     '0.0.0-fa1e8df11',
+29 silly addNameRange     '0.0.0-9f395904c',
+29 silly addNameRange     '0.0.0-424099da6',
+29 silly addNameRange     '0.0.0-b4178af81',
+29 silly addNameRange     '0.0.0-bbd21066e',
+29 silly addNameRange     '0.0.0-db3ae32b8',
+29 silly addNameRange     '0.0.0-375616788',
+29 silly addNameRange     '0.0.0-a1dbb852c',
+29 silly addNameRange     '16.9.0-rc.0',
+29 silly addNameRange     '16.9.0',
+29 silly addNameRange     '0.0.0-8d5403877',
+29 silly addNameRange     '0.0.0-45b6443c9',
+29 silly addNameRange     '0.0.0-b4b8a349a',
+29 silly addNameRange     '0.0.0-3694a3b5e',
+29 silly addNameRange     '16.10.0',
+29 silly addNameRange     '0.0.0-d346d9208',
+29 silly addNameRange     '16.10.1',
+29 silly addNameRange     '0.0.0-4ab6305f6',
+29 silly addNameRange     '16.10.2',
+29 silly addNameRange     '0.0.0-experimental-d364d8555',
+29 silly addNameRange     '0.0.0-experimental-d7feeb25a',
+29 silly addNameRange     '0.0.0-7082d5a2d',
+29 silly addNameRange     '0.0.0-experimental-7082d5a2d',
+29 silly addNameRange     '0.0.0-1022ee0ec',
+29 silly addNameRange     '0.0.0-experimental-1022ee0ec',
+29 silly addNameRange     '0.0.0-5faf377df',
+29 silly addNameRange     '0.0.0-experimental-5faf377df',
+29 silly addNameRange     '16.11.0',
+29 silly addNameRange     '0.0.0-experimental-f6b8d31a7',
+29 silly addNameRange     '0.0.0-f6b8d31a7',
+29 silly addNameRange     '0.0.0-experimental-38dd17ab9',
+29 silly addNameRange     '0.0.0-38dd17ab9',
+29 silly addNameRange     '0.0.0-b53ea6ca0',
+29 silly addNameRange     '0.0.0-experimental-b53ea6ca0',
+29 silly addNameRange     '16.12.0',
+29 silly addNameRange     '0.0.0-experimental-0e6839614',
+29 silly addNameRange     '0.0.0-experimental-3f3fe0874',
+29 silly addNameRange     '0.0.0-experimental-2c169a568',
+29 silly addNameRange     '0.0.0-f42431abe',
+29 silly addNameRange     '0.0.0-experimental-f42431abe',
+29 silly addNameRange     '0.0.0-57333ca33',
+29 silly addNameRange     '0.0.0-experimental-57333ca33',
+29 silly addNameRange     '0.0.0-241c4467e',
+29 silly addNameRange     '0.0.0-experimental-241c4467e',
+29 silly addNameRange     '0.0.0-experimental-ea6ed3dbb',
+29 silly addNameRange     '0.0.0-ea6ed3dbb',
+29 silly addNameRange     '0.0.0-experimental-5de5b6150',
+29 silly addNameRange     '0.0.0-5de5b6150',
+29 silly addNameRange     '0.0.0-8d7535e54',
+29 silly addNameRange     '0.0.0-experimental-8d7535e54',
+29 silly addNameRange     '0.0.0-d28bd2994',
+29 silly addNameRange     '0.0.0-experimental-d28bd2994',
+29 silly addNameRange     '16.13.0',
+29 silly addNameRange     '0.0.0-experimental-355970aa4',
+29 silly addNameRange     '0.0.0-experimental-235a6c4af',
+29 silly addNameRange     '0.0.0-235a6c4af',
+29 silly addNameRange     '0.0.0-experimental-8b155d261',
+29 silly addNameRange     '0.0.0-experimental-aae83a4b9',
+29 silly addNameRange     '0.0.0-da834083c',
+29 silly addNameRange     '16.13.1',
+29 silly addNameRange     '0.0.0-d7382b6c4',
+29 silly addNameRange     '0.0.0-experimental-d7382b6c4',
+29 silly addNameRange     '0.0.0-experimental-e5d06e34b' ] ]
+30 verbose addNamed [ 'react', '16.13.1' ]
+31 verbose addNamed [ '16.13.1', '16.13.1' ]
+32 silly lockFile 2a831b10-react-16-13-1 react@16.13.1
+33 verbose lock react@16.13.1 C:\Users\wisec\AppData\Roaming\npm-cache\2a831b10-react-16-13-1.lock
+34 silly lockFile 24d4a553-pmjs-org-react-react-16-13-1-tgz http://registry.npmjs.org/react/-/react-16.13.1.tgz
+35 verbose lock http://registry.npmjs.org/react/-/react-16.13.1.tgz C:\Users\wisec\AppData\Roaming\npm-cache\24d4a553-pmjs-org-react-react-16-13-1-tgz.lock
+36 verbose addRemoteTarball [ 'http://registry.npmjs.org/react/-/react-16.13.1.tgz',
+36 verbose addRemoteTarball   '2e818822f1a9743122c063d6410d85c1e3afe48e' ]
+37 info retry fetch attempt 1 at 03:19:35
+38 verbose fetch to= C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\tmp.tgz
+39 http GET http://registry.npmjs.org/react/-/react-16.13.1.tgz
+40 http 200 http://registry.npmjs.org/react/-/react-16.13.1.tgz
+41 silly shasum updated bytes 53502
+42 info shasum 2e818822f1a9743122c063d6410d85c1e3afe48e
+42 info shasum C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\tmp.tgz
+43 verbose tar unpack C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\tmp.tgz
+44 silly lockFile 0f7a9abd-028-0-014313120162114501-package C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package
+45 verbose lock C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package C:\Users\wisec\AppData\Roaming\npm-cache\0f7a9abd-028-0-014313120162114501-package.lock
+46 silly lockFile d35a3aa9-028-0-014313120162114501-tmp-tgz C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\tmp.tgz
+47 verbose lock C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\tmp.tgz C:\Users\wisec\AppData\Roaming\npm-cache\d35a3aa9-028-0-014313120162114501-tmp-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry package.json
+50 silly gunzTarPerm extractEntry build-info.json
+51 silly gunzTarPerm extractEntry index.js
+52 silly gunzTarPerm extractEntry LICENSE
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm extractEntry cjs/react.development.js
+55 silly gunzTarPerm extractEntry cjs/react.production.min.js
+56 silly gunzTarPerm extractEntry umd/react.development.js
+57 silly gunzTarPerm extractEntry umd/react.production.min.js
+58 silly gunzTarPerm extractEntry umd/react.profiling.min.js
+59 verbose read json C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package\package.json
+60 silly lockFile 0f7a9abd-028-0-014313120162114501-package C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package
+61 silly lockFile 0f7a9abd-028-0-014313120162114501-package C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package
+62 silly lockFile d35a3aa9-028-0-014313120162114501-tmp-tgz C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\tmp.tgz
+63 silly lockFile d35a3aa9-028-0-014313120162114501-tmp-tgz C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\tmp.tgz
+64 verbose from cache C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package\package.json
+65 verbose tar pack [ 'C:\\Users\\wisec\\AppData\\Roaming\\npm-cache\\react\\16.13.1\\package.tgz',
+65 verbose tar pack   'C:\\Users\\wisec\\AppData\\Local\\Temp\\npm-19448\\1586675975028-0.014313120162114501\\package' ]
+66 verbose tarball C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+67 verbose folder C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package
+68 silly lockFile 0f7a9abd-028-0-014313120162114501-package C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package
+69 verbose lock C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package C:\Users\wisec\AppData\Roaming\npm-cache\0f7a9abd-028-0-014313120162114501-package.lock
+70 silly lockFile e84ef3dc--cache-react-16-13-1-package-tgz C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+71 verbose lock C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz C:\Users\wisec\AppData\Roaming\npm-cache\e84ef3dc--cache-react-16-13-1-package-tgz.lock
+72 silly lockFile 0f7a9abd-028-0-014313120162114501-package C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package
+73 silly lockFile 0f7a9abd-028-0-014313120162114501-package C:\Users\wisec\AppData\Local\Temp\npm-19448\1586675975028-0.014313120162114501\package
+74 silly lockFile e84ef3dc--cache-react-16-13-1-package-tgz C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+75 silly lockFile e84ef3dc--cache-react-16-13-1-package-tgz C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+76 silly lockFile a1b6c8bd--npm-cache-react-16-13-1-package C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package
+77 verbose lock C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package C:\Users\wisec\AppData\Roaming\npm-cache\a1b6c8bd--npm-cache-react-16-13-1-package.lock
+78 silly lockFile a1b6c8bd--npm-cache-react-16-13-1-package C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package
+79 silly lockFile a1b6c8bd--npm-cache-react-16-13-1-package C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package
+80 verbose tar unpack C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+81 silly lockFile a1b6c8bd--npm-cache-react-16-13-1-package C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package
+82 verbose lock C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package C:\Users\wisec\AppData\Roaming\npm-cache\a1b6c8bd--npm-cache-react-16-13-1-package.lock
+83 silly lockFile e84ef3dc--cache-react-16-13-1-package-tgz C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+84 verbose lock C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz C:\Users\wisec\AppData\Roaming\npm-cache\e84ef3dc--cache-react-16-13-1-package-tgz.lock
+85 silly gunzTarPerm modes [ '755', '644' ]
+86 silly gunzTarPerm extractEntry package.json
+87 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+88 silly gunzTarPerm extractEntry README.md
+89 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+90 silly gunzTarPerm extractEntry LICENSE
+91 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+92 silly gunzTarPerm extractEntry index.js
+93 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+94 silly gunzTarPerm extractEntry build-info.json
+95 silly gunzTarPerm modified mode [ 'build-info.json', 438, 420 ]
+96 silly gunzTarPerm extractEntry cjs/react.development.js
+97 silly gunzTarPerm modified mode [ 'cjs/react.development.js', 438, 420 ]
+98 silly gunzTarPerm extractEntry cjs/react.production.min.js
+99 silly gunzTarPerm modified mode [ 'cjs/react.production.min.js', 438, 420 ]
+100 silly gunzTarPerm extractEntry umd/react.development.js
+101 silly gunzTarPerm modified mode [ 'umd/react.development.js', 438, 420 ]
+102 silly gunzTarPerm extractEntry umd/react.production.min.js
+103 silly gunzTarPerm modified mode [ 'umd/react.production.min.js', 438, 420 ]
+104 silly gunzTarPerm extractEntry umd/react.profiling.min.js
+105 silly gunzTarPerm modified mode [ 'umd/react.profiling.min.js', 438, 420 ]
+106 verbose read json C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package\package.json
+107 silly lockFile a1b6c8bd--npm-cache-react-16-13-1-package C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package
+108 silly lockFile a1b6c8bd--npm-cache-react-16-13-1-package C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package
+109 silly lockFile e84ef3dc--cache-react-16-13-1-package-tgz C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+110 silly lockFile e84ef3dc--cache-react-16-13-1-package-tgz C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+111 silly shasum updated bytes 53506
+112 info shasum d10355ac626cdf4b4d37ed05293841a2404f16f3
+112 info shasum C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+113 verbose from cache C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package\package.json
+114 verbose chmod C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz 644
+115 silly chown skipping for windows C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+116 silly lockFile 24d4a553-pmjs-org-react-react-16-13-1-tgz http://registry.npmjs.org/react/-/react-16.13.1.tgz
+117 silly lockFile 24d4a553-pmjs-org-react-react-16-13-1-tgz http://registry.npmjs.org/react/-/react-16.13.1.tgz
+118 silly lockFile 2a831b10-react-16-13-1 react@16.13.1
+119 silly lockFile 2a831b10-react-16-13-1 react@16.13.1
+120 silly lockFile 0baa5bb3-react react@
+121 silly lockFile 0baa5bb3-react react@
+122 silly resolved [ { name: 'react',
+122 silly resolved     description: 'React is a JavaScript library for building user interfaces.',
+122 silly resolved     keywords: [ 'react' ],
+122 silly resolved     version: '16.13.1',
+122 silly resolved     homepage: 'https://reactjs.org/',
+122 silly resolved     bugs: 'https://github.com/facebook/react/issues',
+122 silly resolved     license: 'MIT',
+122 silly resolved     files:
+122 silly resolved      [ 'LICENSE',
+122 silly resolved        'README.md',
+122 silly resolved        'build-info.json',
+122 silly resolved        'index.js',
+122 silly resolved        'cjs/',
+122 silly resolved        'umd/' ],
+122 silly resolved     main: 'index.js',
+122 silly resolved     repository:
+122 silly resolved      { type: 'git',
+122 silly resolved        url: 'https://github.com/facebook/react.git',
+122 silly resolved        directory: 'packages/react' },
+122 silly resolved     engines: { node: '>=0.10.0' },
+122 silly resolved     dependencies:
+122 silly resolved      { 'loose-envify': '^1.1.0',
+122 silly resolved        'object-assign': '^4.1.1',
+122 silly resolved        'prop-types': '^15.6.2' },
+122 silly resolved     browserify: { transform: [Object] },
+122 silly resolved     readme: '# `react`\n\nReact is a JavaScript library for creating user interfaces.\n\nThe `react` package contains only the functionality necessary to define React components. It is typically used together with a React renderer like `react-dom` for the web, or `react-native` for the native environments.\n\n**Note:** by default, React will be in development mode. The development version includes extra warnings about common mistakes, whereas the production version includes extra performance optimizations and strips all error messages. Don\'t forget to use the [production build](https://reactjs.org/docs/optimizing-performance.html#use-the-production-build) when deploying your application.\n\n## Example Usage\n\n```js\nvar React = require(\'react\');\n```\n',
+122 silly resolved     readmeFilename: 'README.md',
+122 silly resolved     _id: 'react@16.13.1',
+122 silly resolved     dist: { shasum: 'd10355ac626cdf4b4d37ed05293841a2404f16f3' },
+122 silly resolved     _from: 'react@',
+122 silly resolved     _resolved: 'http://registry.npmjs.org/react/-/react-16.13.1.tgz' } ]
+123 info install react@16.13.1 into D:\reactProcject1
+124 info installOne react@16.13.1
+125 verbose from cache C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package\package.json
+126 info D:\reactProcject1\node_modules\react unbuild
+127 verbose read json D:\reactProcject1\node_modules\react\package.json
+128 verbose tar unpack C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+129 silly lockFile 46d60c35-eactProcject1-node-modules-react D:\reactProcject1\node_modules\react
+130 verbose lock D:\reactProcject1\node_modules\react C:\Users\wisec\AppData\Roaming\npm-cache\46d60c35-eactProcject1-node-modules-react.lock
+131 silly lockFile e84ef3dc--cache-react-16-13-1-package-tgz C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+132 verbose lock C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz C:\Users\wisec\AppData\Roaming\npm-cache\e84ef3dc--cache-react-16-13-1-package-tgz.lock
+133 silly gunzTarPerm modes [ '755', '644' ]
+134 silly gunzTarPerm extractEntry package.json
+135 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+136 silly gunzTarPerm extractEntry README.md
+137 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+138 silly gunzTarPerm extractEntry LICENSE
+139 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+140 silly gunzTarPerm extractEntry index.js
+141 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+142 silly gunzTarPerm extractEntry build-info.json
+143 silly gunzTarPerm modified mode [ 'build-info.json', 438, 420 ]
+144 silly gunzTarPerm extractEntry cjs/react.development.js
+145 silly gunzTarPerm modified mode [ 'cjs/react.development.js', 438, 420 ]
+146 silly gunzTarPerm extractEntry cjs/react.production.min.js
+147 silly gunzTarPerm modified mode [ 'cjs/react.production.min.js', 438, 420 ]
+148 silly gunzTarPerm extractEntry umd/react.development.js
+149 silly gunzTarPerm modified mode [ 'umd/react.development.js', 438, 420 ]
+150 silly gunzTarPerm extractEntry umd/react.production.min.js
+151 silly gunzTarPerm modified mode [ 'umd/react.production.min.js', 438, 420 ]
+152 silly gunzTarPerm extractEntry umd/react.profiling.min.js
+153 silly gunzTarPerm modified mode [ 'umd/react.profiling.min.js', 438, 420 ]
+154 verbose read json D:\reactProcject1\node_modules\react\package.json
+155 silly lockFile 46d60c35-eactProcject1-node-modules-react D:\reactProcject1\node_modules\react
+156 silly lockFile 46d60c35-eactProcject1-node-modules-react D:\reactProcject1\node_modules\react
+157 silly lockFile e84ef3dc--cache-react-16-13-1-package-tgz C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+158 silly lockFile e84ef3dc--cache-react-16-13-1-package-tgz C:\Users\wisec\AppData\Roaming\npm-cache\react\16.13.1\package.tgz
+159 info preinstall react@16.13.1
+160 verbose from cache D:\reactProcject1\node_modules\react\package.json
+161 verbose readDependencies using package.json deps
+162 verbose from cache D:\reactProcject1\node_modules\react\package.json
+163 verbose readDependencies using package.json deps
+164 verbose cache add [ 'loose-envify@^1.1.0', null ]
+165 verbose cache add name=undefined spec="loose-envify@^1.1.0" args=["loose-envify@^1.1.0",null]
+166 verbose parsed url { protocol: null,
+166 verbose parsed url   slashes: null,
+166 verbose parsed url   auth: null,
+166 verbose parsed url   host: null,
+166 verbose parsed url   port: null,
+166 verbose parsed url   hostname: null,
+166 verbose parsed url   hash: null,
+166 verbose parsed url   search: null,
+166 verbose parsed url   query: null,
+166 verbose parsed url   pathname: 'loose-envify@^1.1.0',
+166 verbose parsed url   path: 'loose-envify@^1.1.0',
+166 verbose parsed url   href: 'loose-envify@^1.1.0' }
+167 verbose cache add name="loose-envify" spec="^1.1.0" args=["loose-envify","^1.1.0"]
+168 verbose parsed url { protocol: null,
+168 verbose parsed url   slashes: null,
+168 verbose parsed url   auth: null,
+168 verbose parsed url   host: null,
+168 verbose parsed url   port: null,
+168 verbose parsed url   hostname: null,
+168 verbose parsed url   hash: null,
+168 verbose parsed url   search: null,
+168 verbose parsed url   query: null,
+168 verbose parsed url   pathname: '^1.1.0',
+168 verbose parsed url   path: '^1.1.0',
+168 verbose parsed url   href: '^1.1.0' }
+169 verbose addNamed [ 'loose-envify', '^1.1.0' ]
+170 verbose addNamed [ null, null ]
+171 silly lockFile 4dc4fa45-loose-envify-1-1-0 loose-envify@^1.1.0
+172 verbose lock loose-envify@^1.1.0 C:\Users\wisec\AppData\Roaming\npm-cache\4dc4fa45-loose-envify-1-1-0.lock
+173 verbose cache add [ 'object-assign@^4.1.1', null ]
+174 verbose cache add name=undefined spec="object-assign@^4.1.1" args=["object-assign@^4.1.1",null]
+175 verbose parsed url { protocol: null,
+175 verbose parsed url   slashes: null,
+175 verbose parsed url   auth: null,
+175 verbose parsed url   host: null,
+175 verbose parsed url   port: null,
+175 verbose parsed url   hostname: null,
+175 verbose parsed url   hash: null,
+175 verbose parsed url   search: null,
+175 verbose parsed url   query: null,
+175 verbose parsed url   pathname: 'object-assign@^4.1.1',
+175 verbose parsed url   path: 'object-assign@^4.1.1',
+175 verbose parsed url   href: 'object-assign@^4.1.1' }
+176 verbose cache add name="object-assign" spec="^4.1.1" args=["object-assign","^4.1.1"]
+177 verbose parsed url { protocol: null,
+177 verbose parsed url   slashes: null,
+177 verbose parsed url   auth: null,
+177 verbose parsed url   host: null,
+177 verbose parsed url   port: null,
+177 verbose parsed url   hostname: null,
+177 verbose parsed url   hash: null,
+177 verbose parsed url   search: null,
+177 verbose parsed url   query: null,
+177 verbose parsed url   pathname: '^4.1.1',
+177 verbose parsed url   path: '^4.1.1',
+177 verbose parsed url   href: '^4.1.1' }
+178 verbose addNamed [ 'object-assign', '^4.1.1' ]
+179 verbose addNamed [ null, null ]
+180 silly lockFile eed196b5-object-assign-4-1-1 object-assign@^4.1.1
+181 verbose lock object-assign@^4.1.1 C:\Users\wisec\AppData\Roaming\npm-cache\eed196b5-object-assign-4-1-1.lock
+182 verbose cache add [ 'prop-types@^15.6.2', null ]
+183 verbose cache add name=undefined spec="prop-types@^15.6.2" args=["prop-types@^15.6.2",null]
+184 verbose parsed url { protocol: null,
+184 verbose parsed url   slashes: null,
+184 verbose parsed url   auth: null,
+184 verbose parsed url   host: null,
+184 verbose parsed url   port: null,
+184 verbose parsed url   hostname: null,
+184 verbose parsed url   hash: null,
+184 verbose parsed url   search: null,
+184 verbose parsed url   query: null,
+184 verbose parsed url   pathname: 'prop-types@^15.6.2',
+184 verbose parsed url   path: 'prop-types@^15.6.2',
+184 verbose parsed url   href: 'prop-types@^15.6.2' }
+185 verbose cache add name="prop-types" spec="^15.6.2" args=["prop-types","^15.6.2"]
+186 verbose parsed url { protocol: null,
+186 verbose parsed url   slashes: null,
+186 verbose parsed url   auth: null,
+186 verbose parsed url   host: null,
+186 verbose parsed url   port: null,
+186 verbose parsed url   hostname: null,
+186 verbose parsed url   hash: null,
+186 verbose parsed url   search: null,
+186 verbose parsed url   query: null,
+186 verbose parsed url   pathname: '^15.6.2',
+186 verbose parsed url   path: '^15.6.2',
+186 verbose parsed url   href: '^15.6.2' }
+187 verbose addNamed [ 'prop-types', '^15.6.2' ]
+188 verbose addNamed [ null, null ]
+189 silly lockFile 6c3088b7-prop-types-15-6-2 prop-types@^15.6.2
+190 verbose lock prop-types@^15.6.2 C:\Users\wisec\AppData\Roaming\npm-cache\6c3088b7-prop-types-15-6-2.lock
+191 info addNameTag [ 'loose-envify', '^1.1.0' ]
+192 info addNameTag [ 'object-assign', '^4.1.1' ]
+193 info addNameTag [ 'prop-types', '^15.6.2' ]
+194 verbose url raw loose-envify
+195 verbose url resolving [ 'http://registry.npmjs.org/', './loose-envify' ]
+196 verbose url resolved http://registry.npmjs.org/loose-envify
+197 info trying registry request attempt 1 at 03:19:35
+198 http GET http://registry.npmjs.org/loose-envify
+199 verbose url raw object-assign
+200 verbose url resolving [ 'http://registry.npmjs.org/', './object-assign' ]
+201 verbose url resolved http://registry.npmjs.org/object-assign
+202 info trying registry request attempt 1 at 03:19:35
+203 http GET http://registry.npmjs.org/object-assign
+204 verbose url raw prop-types
+205 verbose url resolving [ 'http://registry.npmjs.org/', './prop-types' ]
+206 verbose url resolved http://registry.npmjs.org/prop-types
+207 info trying registry request attempt 1 at 03:19:35
+208 http GET http://registry.npmjs.org/prop-types
+209 http 200 http://registry.npmjs.org/prop-types
+210 silly registry.get cb [ 200,
+210 silly registry.get   { date: 'Sun, 12 Apr 2020 07:19:35 GMT',
+210 silly registry.get     'content-type': 'application/json',
+210 silly registry.get     'content-length': '63886',
+210 silly registry.get     connection: 'keep-alive',
+210 silly registry.get     'cf-ray': '582b2e0fdd8ffe02-DTW',
+210 silly registry.get     'accept-ranges': 'bytes',
+210 silly registry.get     age: '4178',
+210 silly registry.get     'cache-control': 'public, max-age=300',
+210 silly registry.get     etag: '"28c92ed73b0d2f3064efe947cb5a6ae9"',
+210 silly registry.get     'last-modified': 'Fri, 29 Nov 2019 09:32:44 GMT',
+210 silly registry.get     vary: 'accept-encoding, accept',
+210 silly registry.get     'cf-cache-status': 'HIT',
+210 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+210 silly registry.get     server: 'cloudflare' } ]
+211 http 200 http://registry.npmjs.org/object-assign
+212 silly registry.get cb [ 200,
+212 silly registry.get   { date: 'Sun, 12 Apr 2020 07:19:35 GMT',
+212 silly registry.get     'content-type': 'application/json; charset=UTF-8',
+212 silly registry.get     'content-length': '24020',
+212 silly registry.get     connection: 'keep-alive',
+212 silly registry.get     'cf-ray': '582b2e0fdfdcfe12-DTW',
+212 silly registry.get     'accept-ranges': 'bytes',
+212 silly registry.get     age: '651',
+212 silly registry.get     'cache-control': 'public, max-age=300',
+212 silly registry.get     etag: '"d7609bf70dc4cde24cf456be05d80a7c"',
+212 silly registry.get     'last-modified': 'Sun, 27 May 2018 10:57:26 GMT',
+212 silly registry.get     vary: 'accept-encoding, accept',
+212 silly registry.get     'cf-cache-status': 'HIT',
+212 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+212 silly registry.get     server: 'cloudflare' } ]
+213 silly lockFile 6c3088b7-prop-types-15-6-2 prop-types@^15.6.2
+214 silly lockFile 6c3088b7-prop-types-15-6-2 prop-types@^15.6.2
+215 verbose about to build D:\reactProcject1\node_modules\react
+216 info D:\reactProcject1\node_modules\react unbuild
+217 verbose from cache D:\reactProcject1\node_modules\react\package.json
+218 info preuninstall react@16.13.1
+219 info uninstall react@16.13.1
+220 silly lockFile eed196b5-object-assign-4-1-1 object-assign@^4.1.1
+221 silly lockFile eed196b5-object-assign-4-1-1 object-assign@^4.1.1
+222 verbose true,D:\reactProcject1\node_modules,D:\reactProcject1\node_modules unbuild react@16.13.1
+223 info postuninstall react@16.13.1
+224 error Error: No compatible version found: prop-types@'^15.6.2'
+224 error Valid install targets:
+224 error ["0.1.0","0.2.0","15.5.0-alpha.0","15.5.0","15.5.1","15.5.2","15.5.3","15.5.4","15.5.5","15.5.6","15.5.7-alpha","15.5.7-alpha.1","15.5.7","15.5.8","15.5.9","15.5.10","15.6.0","15.6.1","15.6.2","15.7.0","15.7.1","15.7.2"]
+224 error     at installTargetsError (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:682:10)
+224 error     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache.js:597:10
+224 error     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:138:7)
+224 error     at Object.oncomplete (fs.js:93:15)
+225 error If you need help, you may report this log at:
+225 error     <http://github.com/isaacs/npm/issues>
+225 error or email it to:
+225 error     <npm-@googlegroups.com>
+226 error System Windows_NT 6.2.9200
+227 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "react"
+228 error cwd D:\reactProcject1
+229 error node -v v0.10.0
+230 error npm -v 1.2.14
+231 verbose exit [ 1, true ]

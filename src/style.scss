@@ -1,9 +1,9 @@
-body {
-    background-color:skyblue;
+#container{
     display: flex;
     justify-content: center;
 }
-li {
-    background-color: slateblue;
-    margin-bottom: 3px;
+body {
+    background-color:skyblue;
+    padding: 50px;
+    font-family:  sans-serif;
 }
