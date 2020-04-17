@@ -21,6 +21,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-transition-group": "^4.3.0",
     "sass": "^1.26.3"
   },
   "devDependencies": {

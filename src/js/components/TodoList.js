@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import TodoItems from "./TodoItems";
+import {CSSTransition} from 'react-transition-group';
+
 class TodoList extends Component {
     constructor(props) {
         super(props);
@@ -116,13 +118,13 @@ class TodoList extends Component {
 
     render(){
         return (
-            <div class = "todoMain">
-                <div classname = "header">
+            <div className = "todoMain">
+                <div className = "header">
                     <form onSubmit = {this.addTask}>
                         <input ref = {(a) => this._taskInput = a} placeholder = "enter a task!">
 
                         </input>
-                        <button type = "submit">add :()</button>
+                        <button type = "submit">add</button>
                     </form>
                 </div>
                 <TodoItems entries = {this.state.tasks}

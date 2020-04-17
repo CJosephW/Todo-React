@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import TodoList from "./TodoList";
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 class TodoItems extends Component {
     constructor(props){
@@ -9,8 +10,8 @@ class TodoItems extends Component {
     }
     
     createTasks(item){
-        return <li onClick={() => this.delete(item.key)}
-            key = {item.key}>{item.text}</li>
+        return  <CSSTransition key = {item.key} timeout = {500} classNames = "item"><li onClick={() => this.delete(item.key)}
+            key = {item.key}><span>{item.text}</span></li></CSSTransition>
     }
     delete(key) {
         this.props.delete(key);
@@ -21,9 +22,13 @@ class TodoItems extends Component {
         var listItems = todoEntries.map(this.createTasks);
 
         return(
-            <ul className = "theList">
-                {listItems}
-            </ul>
+            
+                <ul className = "theList">
+                    <TransitionGroup className = "todo-list">
+                        {listItems}
+                    </TransitionGroup>
+                </ul>
+            
         )
     }
 }

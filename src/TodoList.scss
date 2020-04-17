@@ -32,6 +32,22 @@
     border: solid black 2px;
     list-style: none;
   }
+  .todoMain .theList li:hover span {
+    display: none;
+  }
+  .todoMain .theList li:hover:before {
+    content: "Remove this task?";
+    font-weight: bold;
+    color: red;
+  }
   ul.theList {
     padding: 0;
   }
+  .item-exit {
+    opacity: 1;
+  }
+  .item-exit-active {
+    opacity: 0;
+    transition: opacity 300ms ease-in;
+  }
+  
